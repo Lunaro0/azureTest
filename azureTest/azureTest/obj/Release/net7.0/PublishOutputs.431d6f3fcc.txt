@@ -1,0 +1,7 @@
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\azureTest.exe
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\appsettings.json
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\azureTest.dll
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\azureTest.deps.json
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\azureTest.runtimeconfig.json
+D:\Real\Visual studio\azureTest\azureTest\azureTest\obj\Release\net7.0\PubTmp\Out\azureTest.pdb
