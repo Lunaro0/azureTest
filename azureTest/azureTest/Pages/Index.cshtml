@@ -5,69 +5,49 @@
 }
 
 <html>
-    <head>
-        <title>
-            Some Title goes here
-        </title>
-        <style type="text/css">
-            button{
-                border: 10px;
-                background: blue;
-                color: #ff0;
-                padding: 5px
-            }
-            input{
+<head>
+    <title>
+        Some Title goes here
+    </title>
+    <style type="text/css">
+        button {
+            border: 10px;
+            background: blue;
+            color: #ff0;
+            padding: 5px;
+        }
+
+        input {
             border: none;
             background: teal;
             color: #ff0;
             font-weight: bold;
-            padding: 5px
-            }
-            mark{
-            color: green
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <h1 style="font-size:80px; font-family:Comic Sans MS; ">
-                <mark>Mads learning HTML 
-                    <img width="300" src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202208/MIT-MathProblemSolver-01-press_0.jpg?itok=aLGeaOnY" />
-                </mark>
-                 </h1>
-                 <br />
-                <p style="float: left">
-                <a href="#"> Home </a> |
-                <a href="#"> Styles </a> |
-                <a href="#"> Colors </a> |  
-                <a href="#"> Paragraphs </a> |
-                <a href="#"> Links </a> |
-                <a href="#"> Images </a> |
-                <a href="#"> Tables </a> |
-                <a href="#"> Forms </a> |
-                <a href="#"> Links </a> |
-                </p>
-            </nav>
-        </header>
-        <br />
-        <hr color="purple" /> <!--doesnt change color-->
-        <hr />
-        <main>
-            <h1 align="center">This should be <b><u>main</u></b> Title?! =D</h1>
-        <p> This one is main text. I should type something else but running out of <span { style="font-size: 30px"; "color: blue"}> ideas </span> what else to write! ;/ </p>
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <br />
+    <hr style="color: purple" /> <!--doesnt change color-->
+    <hr />
+    <main>
+        <h1 align="center">This should be <b><u>main</u></b> Title?! =D</h1>
+        <p> This one is main text. I should type something else but running out of <span style="font-size: 30px; color: blue"> ideas </span> what else to write! ;/ </p>
         <p> So as long as I understand what this part of code means, I'm happy! :D </p>
-        <hr style="height:8px" color="gold" /> <!--doesnt change color-->
+        <hr style="height:8px; color:gold" /> <!--doesnt change color-->
         <p> Calculate SUM </p>
-        <p> Enter A <input type="text" id="A"> Enter B <input type="text" id="B"> 
-            <button onclick="getValue()"> Sum </button></p>
+        <p>
+            Enter A <input type="text" id="A"> Enter B <input type="text" id="B">
+            <button onclick="getValue()"> Sum </button>
+            <div class="myText">TEXT</div>
+        </p>
         <p> Result = </p>
         <p> Correct <input type="checkbox" id="Correct" /> Wrong <input type="checkbox" id="Wrong" /> </p>
     </main>
-        <footer>
-            <h3>
-                 This is Footer. I was expecting it to be like, LOW-LOW.
-            </h3>
-        </footer>
-    </body>
+    <footer>
+        <h3>
+            This is Footer. I was expecting it to be like, LOW-LOW.
+        </h3>
+    </footer>
+</body>
 </html>

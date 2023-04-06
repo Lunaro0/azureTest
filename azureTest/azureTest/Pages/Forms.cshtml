@@ -1,0 +1,34 @@
+﻿@page
+@model azureTest.Pages.FormsModel
+@{
+    
+}
+
+<br /><br />
+
+<form method="post">
+    @*<span>Name: </span>*@
+    <input type="text" placeholder="Name" name="Name" /><br />
+    <input type="number" placeholder="Age" name="Age" /><br />
+
+    <input type="submit" value="Send" />
+
+    <div>@Model.City</div>
+
+    <div>@Model.ServerTime</div>
+
+    <div>Server name: @Model.ServerName</div>
+</form>
+
+<div>
+   Uppercase name: @Model.UpperCaseName
+</div>
+
+
+<div>
+    First Div
+</div>
+
+<div>
+    Second Div
+</div>

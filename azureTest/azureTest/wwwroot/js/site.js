@@ -2,3 +2,7 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+function getValue() {
+    document.getElementsByClassName('myText')[0].setAttribute('style', 'color: red');
+}
